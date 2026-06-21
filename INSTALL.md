@@ -26,11 +26,10 @@ into their own project. No access to the original author's machine is needed.
 Clone the repo once anywhere on your machine:
 
 ```bash
-git clone <REPO_URL> ~/ruflo-powers
+git clone https://github.com/AzamatRaimbekov/ruflo-powers.git ~/ruflo-powers
 ```
 
-> Replace `<REPO_URL>` with wherever this repo is hosted (e.g. your GitHub fork).
-> No clone tooling? `npx degit <owner>/<repo> ~/ruflo-powers` works too.
+> No clone tooling? `npx degit AzamatRaimbekov/ruflo-powers ~/ruflo-powers` works too.
 
 ---
 

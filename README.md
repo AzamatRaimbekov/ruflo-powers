@@ -32,7 +32,7 @@ commands, coordination hooks, a binding frontend standard, and the
 
 ```bash
 # 1. Clone this repo somewhere once
-git clone https://github.com/<you>/ruflo-powers.git ~/ruflo-powers
+git clone https://github.com/AzamatRaimbekov/ruflo-powers.git ~/ruflo-powers
 
 # 2. From inside YOUR project, run the installer
 cd ~/path/to/your-project
@@ -71,5 +71,5 @@ rules (e.g. the senior-React frontend standard).
 ## Quick install (no clone)
 
 ```bash
-npx degit <you>/ruflo-powers /tmp/ruflo-powers && bash /tmp/ruflo-powers/install.sh
+npx degit AzamatRaimbekov/ruflo-powers /tmp/ruflo-powers && bash /tmp/ruflo-powers/install.sh
 ```
