@@ -73,3 +73,17 @@ rules (e.g. the senior-React frontend standard).
 ```bash
 npx degit AzamatRaimbekov/ruflo-powers /tmp/ruflo-powers && bash /tmp/ruflo-powers/install.sh
 ```
+
+## Updating the framework (maintainer)
+
+Made changes to skills, agents, rules, or docs? Publish them so everyone
+installing from the repo gets the latest — one command:
+
+```bash
+bash update.sh "what changed"   # stage + commit + push to GitHub
+bash update.sh                  # auto timestamp message
+bash update.sh -n "msg"         # dry-run, pushes nothing
+```
+
+That's the whole loop: edit files → `bash update.sh "..."` → users re-run
+`install.sh` (or `git pull`) to pick it up.
