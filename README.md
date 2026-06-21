@@ -1,15 +1,18 @@
 # Ruflo Powers — Claude Code toolkit
 
 A drop-in **Claude Code** configuration that turns any project folder into a
-fully-loaded agent workspace: **83 skills**, specialized sub-agents, slash
+fully-loaded agent workspace: **84 skills**, specialized sub-agents, slash
 commands, coordination hooks, a binding frontend standard, and the
 `claude-flow` (ruflo) MCP server for swarm / memory / routing.
+
+> **Installing for the first time / for other people?** See **[INSTALL.md](INSTALL.md)**
+> for the full step-by-step guide (prerequisites, clone, install, verify).
 
 ## What's inside
 
 | Path | What it is |
 |------|-----------|
-| `.claude/skills/` | 83 skills (frontend, backend, review, swarm, docs, …) |
+| `.claude/skills/` | 84 skills (frontend, backend, review, swarm, docs, `project-kickoff`, …) |
 | `.claude/agents/` | Specialized sub-agent definitions |
 | `.claude/commands/` | Slash commands |
 | `.claude/helpers/` | Hooks, statusline, routing, auto-memory |
@@ -17,6 +20,8 @@ commands, coordination hooks, a binding frontend standard, and the
 | `.mcp.json` | Registers the `claude-flow` (ruflo) MCP server |
 | `CLAUDE.md` / `AGENTS.md` | Rules + skill/agent connectivity map |
 | `agent-assets/` | Frontend/backend bundle used by skills |
+| `frontend-agents/` | Standard **Template Project** starter for new apps |
+| `.rtk/` | RTK (Rust Token Killer) filter config |
 | `.codex/`, `.agents/` | Codex + agent configs |
 
 > Runtime state (`*.db`, `.swarm/`, `.claude-flow/data`, logs) and local

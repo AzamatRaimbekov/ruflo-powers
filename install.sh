@@ -47,12 +47,14 @@ PAYLOAD_DIRS=(
   ".claude"
   ".codex"
   ".agents"
+  ".rtk"
   "agent-assets"
   "frontend-agents"
 )
 # Single files (CLAUDE.md / AGENTS.md are backed up, never silently clobbered).
 PAYLOAD_FILES=(
   ".mcp.json"
+  ".gitignore"
   "CLAUDE.md"
   "AGENTS.md"
 )
