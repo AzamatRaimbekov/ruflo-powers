@@ -1,0 +1,15 @@
+{
+  "name": "Code Review Graph",
+  "version": "2.3.5",
+  "description": "Project-local test bundle for the Code Review Graph MCP server, hooks, and review skills.",
+  "source": "https://github.com/tirth8205/code-review-graph",
+  "local_path": "agent-assets/code-review-graph",
+  "mcp": {
+    "server": "code-review-graph",
+    "command": "uvx",
+    "args": [
+      "code-review-graph",
+      "serve"
+    ]
+  }
+}

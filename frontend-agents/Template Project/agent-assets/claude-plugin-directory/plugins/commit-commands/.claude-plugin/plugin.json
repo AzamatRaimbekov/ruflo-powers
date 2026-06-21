@@ -1,0 +1,16 @@
+{
+  "name": "commit-commands",
+  "display_name": "Commit Commands",
+  "description": "Commands for git commit workflows including commit, push, and PR creation.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/commit-commands",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

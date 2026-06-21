@@ -1,0 +1,16 @@
+{
+  "name": "coderabbit",
+  "display_name": "CodeRabbit",
+  "description": "CodeRabbit: AI code review with 40+ analyzers, AST parsing, security checks, and auto-integrated project guidelines.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/coderabbit",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

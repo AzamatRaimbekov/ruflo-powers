@@ -1,0 +1,16 @@
+{
+  "name": "sonarqube",
+  "display_name": "sonarqube",
+  "description": "Automatically enforce SonarQube code quality and security in the agent coding loop.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/sonarqube",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

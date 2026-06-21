@@ -1,0 +1,16 @@
+{
+  "name": "mcp-server-dev",
+  "display_name": "MCP Server Dev",
+  "description": "Design and build MCP servers for Claude. Learn deployment (HTTP, MCPB, local), tools, auth, and interactive apps.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/mcp-server-dev",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

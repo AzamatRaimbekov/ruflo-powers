@@ -1,0 +1,37 @@
+{
+  "slug": "code-review-graph",
+  "name": "Code Review Graph",
+  "kind": "project-local-test-plugin",
+  "version": "2.3.5",
+  "source": {
+    "repository": "https://github.com/tirth8205/code-review-graph",
+    "commit": "0c9a5ff3371cf78f89032ff6936e3d3a5fedf0b8",
+    "homepage": "https://code-review-graph.com",
+    "documentation": "https://github.com/tirth8205/code-review-graph/blob/main/docs/INDEX.md"
+  },
+  "local_path": "agent-assets/code-review-graph",
+  "mcp": {
+    "config_file": ".mcp.json",
+    "server_name": "code-review-graph",
+    "command": "uvx",
+    "args": [
+      "code-review-graph",
+      "serve"
+    ]
+  },
+  "hooks_file": "hooks/hooks.json",
+  "skills": [
+    "build-graph",
+    "debug-issue",
+    "explore-codebase",
+    "refactor-safely",
+    "review-changes",
+    "review-delta",
+    "review-pr"
+  ],
+  "install_notes": [
+    "This bundle mirrors upstream source files for local testing.",
+    "MCP activation uses uvx code-review-graph serve from .mcp.json.",
+    "Credentials and user-specific MCP client configuration must stay outside this repository."
+  ]
+}

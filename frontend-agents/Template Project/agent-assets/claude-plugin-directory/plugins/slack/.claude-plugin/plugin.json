@@ -1,0 +1,18 @@
+{
+  "name": "slack",
+  "display_name": "Slack",
+  "description": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from Claude Cowork.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/slack",
+  "works_with": [
+    "Cowork",
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

@@ -1,0 +1,2244 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-06-03",
+  "source": {
+    "url": "https://claude.com/plugins",
+    "title": "Plugins for Claude Code and Cowork | Anthropic",
+    "retrieved_at": "2026-06-03",
+    "source_kind": "public_directory_cards",
+    "notes": [
+      "This registry mirrors the public Claude plugin directory as catalog metadata for project templates.",
+      "Each entry also has a local package folder under agent-assets/claude-plugin-directory/plugins.",
+      "Local folders are disabled-by-default mirrors. They do not include credentials, OAuth grants, or remote package payloads that are not exposed by the public directory page.",
+      "Capability labels are directory-card keyword hints, not a replacement for each plugin manifest."
+    ]
+  },
+  "template": {
+    "single_file_configuration": true,
+    "file": "agent-assets/claude-plugin-directory.config.json",
+    "package_directory": "agent-assets/claude-plugin-directory/plugins",
+    "copied_by_installer": true,
+    "included_in_template_project": true,
+    "default_enabled": false,
+    "secret_storage": "external_only"
+  },
+  "capability_types": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "defaults": {
+    "enabled_by_default": false,
+    "install_mode": "local_folder_mirror_manual_activation",
+    "credential_policy": "never_commit_credentials_or_tokens",
+    "verification": "verify each plugin after installation in the target environment"
+  },
+  "plugins": [
+    {
+      "slug": "frontend-design",
+      "name": "Frontend Design",
+      "url": "https://claude.com/plugins/frontend-design",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/frontend-design",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": true,
+      "installs": 829316,
+      "description": "Craft production-grade frontends with distinctive design. Generates polished code that avoids generic AI aesthetics.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "superpowers",
+      "name": "Superpowers",
+      "url": "https://claude.com/plugins/superpowers",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/superpowers",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 752120,
+      "description": "Claude learns brainstorming, subagent development with code review, debugging, TDD, and skill authoring through Superpowers.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "context7",
+      "name": "Context7",
+      "url": "https://claude.com/plugins/context7",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/context7",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 348660,
+      "description": "Upstash Context7 MCP server for live docs lookup. Pull version-specific docs and code examples from source repos into LLM context.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "code-review",
+      "name": "Code Review",
+      "url": "https://claude.com/plugins/code-review",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/code-review",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 347221,
+      "description": "AI code review with specialized agents and confidence-based filtering for pull requests",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "code-simplifier",
+      "name": "Code Simplifier",
+      "url": "https://claude.com/plugins/code-simplifier",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/code-simplifier",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 284632,
+      "description": "Code clarity agent: simplifies and refines recently modified code while preserving functionality and consistency.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "skill-creator",
+      "name": "Skill Creator",
+      "url": "https://claude.com/plugins/skill-creator",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/skill-creator",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 283456,
+      "description": "Create, improve, and measure skills. Use for creating, updating, evaluating, and benchmarking performance.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "url": "https://claude.com/plugins/github",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/github",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 261988,
+      "description": "Official GitHub MCP server for repo management. Create issues, manage PRs, review code, search repos, and access GitHub's API from Claude Code.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "playwright",
+      "name": "Playwright",
+      "url": "https://claude.com/plugins/playwright",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/playwright",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 248405,
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, and automate testing workflows.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "claude-md-management",
+      "name": "CLAUDE.md Management",
+      "url": "https://claude.com/plugins/claude-md-management",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/claude-md-management",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 223484,
+      "description": "Tools to maintain CLAUDE.md - audit quality, capture learnings, and keep project memory current.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "feature-dev",
+      "name": "Feature Dev",
+      "url": "https://claude.com/plugins/feature-dev",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/feature-dev",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 217559,
+      "description": "Feature development workflow with agents for exploration, design, and review",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "typescript-lsp",
+      "name": "TypeScript LSP",
+      "url": "https://claude.com/plugins/typescript-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/typescript-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 177136,
+      "description": "TypeScript/JavaScript language server for enhanced code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "security-guidance",
+      "name": "Security Guidance",
+      "url": "https://claude.com/plugins/security-guidance",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/security-guidance",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 175630,
+      "description": "Security hook warns about command injection, XSS, and unsafe code patterns when editing files",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "ralph-loop",
+      "name": "Ralph Loop",
+      "url": "https://claude.com/plugins/ralph-loop",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/ralph-loop",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": true,
+      "installs": 174843,
+      "description": "Interactive AI loops for iterative development using the Ralph Wiggum technique: Claude works on tasks repeatedly, seeing prior work until completion.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "claude-code-setup",
+      "name": "Claude Code Setup",
+      "url": "https://claude.com/plugins/claude-code-setup",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/claude-code-setup",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 146119,
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "commit-commands",
+      "name": "Commit Commands",
+      "url": "https://claude.com/plugins/commit-commands",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/commit-commands",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 145326,
+      "description": "Commands for git commit workflows including commit, push, and PR creation",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "url": "https://claude.com/plugins/vercel",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/vercel",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 142095,
+      "description": "Vercel integration for Claude Code. Manage deployments, builds, logs, domains, and frontend infrastructure directly.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "url": "https://claude.com/plugins/figma",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/figma",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 136325,
+      "description": "Figma integration: access design files, extract components, read tokens, translate to code. Bridge design-development gap.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "supabase",
+      "name": "Supabase",
+      "url": "https://claude.com/plugins/supabase",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/supabase",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 100599,
+      "description": "Supabase MCP: Database ops, auth, storage, real-time. Manage projects, run SQL, interact with your backend.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "pr-review-toolkit",
+      "name": "PR Review Toolkit",
+      "url": "https://claude.com/plugins/pr-review-toolkit",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/pr-review-toolkit",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 96663,
+      "description": "PR review agents for comments, tests, errors, types, quality, and simplification",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "pyright-lsp",
+      "name": "Pyright LSP",
+      "url": "https://claude.com/plugins/pyright-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/pyright-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 91225,
+      "description": "Python language server (Pyright) for type checking and code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "telegram",
+      "name": "telegram",
+      "url": "https://claude.com/plugins/telegram",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/telegram",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 83052,
+      "description": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "serena",
+      "name": "Serena",
+      "url": "https://claude.com/plugins/serena",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/serena",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 81023,
+      "description": "Semantic code analysis MCP server for intelligent code understanding, refactoring, and navigation via language server protocol.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "atlassian",
+      "name": "Atlassian",
+      "url": "https://claude.com/plugins/atlassian",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/atlassian",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 73931,
+      "description": "Connect to Jira & Confluence. Search/create issues, access docs, manage sprints, integrate development workflows.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "url": "https://claude.com/plugins/slack",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/slack",
+      "works_with": [
+        "Cowork",
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 70404,
+      "description": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from Claude Cowork.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "chrome-devtools-mcp",
+      "name": "Chrome DevTools",
+      "url": "https://claude.com/plugins/chrome-devtools-mcp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/chrome-devtools-mcp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 69448,
+      "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "agent-sdk-dev",
+      "name": "Agent SDK Dev",
+      "url": "https://claude.com/plugins/agent-sdk-dev",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/agent-sdk-dev",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 58501,
+      "description": "Development kit for working with the Claude Agent SDK",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "plugin-dev",
+      "name": "Plugin Developer Toolkit",
+      "url": "https://claude.com/plugins/plugin-dev",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/plugin-dev",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 57443,
+      "description": "Claude Code plugin toolkit: 7 expert skills for hooks, MCP, commands, agents, validation, and best practices.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "explanatory-output-style",
+      "name": "Explanatory Output Style",
+      "url": "https://claude.com/plugins/explanatory-output-style",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/explanatory-output-style",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 56077,
+      "description": "Adds educational insights on implementation choices and codebase patterns (mimics deprecated Explanatory style)",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "playground",
+      "name": "Playground",
+      "url": "https://claude.com/plugins/playground",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/playground",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 51807,
+      "description": "Interactive HTML playgrounds with visual controls, live preview, and prompt output. Includes design, data, concept map, and critique templates.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "hookify",
+      "name": "Hookify",
+      "url": "https://claude.com/plugins/hookify",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/hookify",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 51046,
+      "description": "Create custom hooks via markdown to prevent unwanted behaviors from conversation patterns or explicit instructions.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "greptile",
+      "name": "Greptile",
+      "url": "https://claude.com/plugins/greptile",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/greptile",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 50108,
+      "description": "AI-powered codebase search. Query repositories in natural language to find code, understand dependencies, and explore architecture.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "url": "https://claude.com/plugins/linear",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/linear",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 39766,
+      "description": "Linear integration: create issues, manage projects, update statuses, search workspaces, and streamline your development workflow.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "learning-output-style",
+      "name": "Learning Output Style",
+      "url": "https://claude.com/plugins/learning-output-style",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/learning-output-style",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 36483,
+      "description": "Interactive learning mode requesting meaningful code contributions at key decision points",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "csharp-lsp",
+      "name": "C# LSP",
+      "url": "https://claude.com/plugins/csharp-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/csharp-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 36046,
+      "description": "C# language server for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "gopls-lsp",
+      "name": "Go LSP (gopls)",
+      "url": "https://claude.com/plugins/gopls-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/gopls-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 35091,
+      "description": "Go language server for code intelligence and refactoring",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "url": "https://claude.com/plugins/gitlab",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/gitlab",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 33497,
+      "description": "GitLab integration for repositories, merge requests, CI/CD pipelines, issues, and wikis with full DevOps lifecycle access.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "url": "https://claude.com/plugins/sentry",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/sentry",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 32327,
+      "description": "Sentry error monitoring: Access error reports, analyze stack traces, search issues, and debug production errors in your IDE.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "url": "https://claude.com/plugins/stripe",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/stripe",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 32282,
+      "description": "Stripe development plugin for Claude",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "remember",
+      "name": "Remember",
+      "url": "https://claude.com/plugins/remember",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/remember",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 31565,
+      "description": "Continuous memory for Claude Code: extracts, summarizes, compresses conversations into tiered daily logs.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "firecrawl",
+      "name": "Firecrawl",
+      "url": "https://claude.com/plugins/firecrawl",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/firecrawl",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 30415,
+      "description": "Firecrawl: Convert websites to LLM-ready markdown/data. Scrape pages, crawl sites, search web, extract structured info. Includes AI agent for autonomous data gathering.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "rust-analyzer-lsp",
+      "name": "Rust Analyzer LSP",
+      "url": "https://claude.com/plugins/rust-analyzer-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/rust-analyzer-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 30220,
+      "description": "Rust language server for code intelligence and analysis",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "huggingface-skills",
+      "name": "Hugging Face Skills",
+      "url": "https://claude.com/plugins/huggingface-skills",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/huggingface-skills",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 28734,
+      "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "jdtls-lsp",
+      "name": "Java LSP (Eclipse JDT.LS)",
+      "url": "https://claude.com/plugins/jdtls-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/jdtls-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 27906,
+      "description": "Java language server (Eclipse JDT.LS) for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "php-lsp",
+      "name": "PHP LSP",
+      "url": "https://claude.com/plugins/php-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/php-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 27484,
+      "description": "PHP language server (Intelephense) for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "coderabbit",
+      "name": "CodeRabbit",
+      "url": "https://claude.com/plugins/coderabbit",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/coderabbit",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 26316,
+      "description": "CodeRabbit: AI code review with 40+ analyzers, AST parsing, security checks, and auto-integrated project guidelines.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "discord",
+      "name": "discord",
+      "url": "https://claude.com/plugins/discord",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/discord",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 26062,
+      "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "clangd-lsp",
+      "name": "Clangd LSP",
+      "url": "https://claude.com/plugins/clangd-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/clangd-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 24636,
+      "description": "C/C++ language server (clangd) for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "url": "https://claude.com/plugins/firebase",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/firebase",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 22035,
+      "description": "Firebase MCP integration. Manage Firestore, authentication, functions, hosting, and storage from your development workflow.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "kotlin-lsp",
+      "name": "Kotlin LSP",
+      "url": "https://claude.com/plugins/kotlin-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/kotlin-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 19959,
+      "description": "Kotlin language server for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "swift-lsp",
+      "name": "Swift LSP",
+      "url": "https://claude.com/plugins/swift-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/swift-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 19804,
+      "description": "Swift language server (SourceKit-LSP) for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "laravel-boost",
+      "name": "Laravel Boost",
+      "url": "https://claude.com/plugins/laravel-boost",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/laravel-boost",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 19152,
+      "description": "Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "microsoft-docs",
+      "name": "Microsoft Docs",
+      "url": "https://claude.com/plugins/microsoft-docs",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/microsoft-docs",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 18246,
+      "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "mcp-server-dev",
+      "name": "MCP Server Dev",
+      "url": "https://claude.com/plugins/mcp-server-dev",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/mcp-server-dev",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 18154,
+      "description": "Design and build MCP servers for Claude. Learn deployment (HTTP, MCPB, local), tools, auth, and interactive apps.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "semgrep",
+      "name": "Semgrep",
+      "url": "https://claude.com/plugins/semgrep",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/semgrep",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 15606,
+      "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "postman",
+      "name": "postman",
+      "url": "https://claude.com/plugins/postman",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/postman",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 14624,
+      "description": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, crea...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "lua-lsp",
+      "name": "Lua LSP",
+      "url": "https://claude.com/plugins/lua-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/lua-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 13370,
+      "description": "Lua language server for code intelligence",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "imessage",
+      "name": "iMessage",
+      "url": "https://claude.com/plugins/imessage",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/imessage",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 12378,
+      "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "atomic-agents",
+      "name": "atomic-agents",
+      "url": "https://claude.com/plugins/atomic-agents",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/atomic-agents",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 12196,
+      "description": "Build AI agents with the Atomic Agents framework. Includes specialized tools and best practice validation.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "circleback",
+      "name": "Circleback",
+      "url": "https://claude.com/plugins/circleback",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/circleback",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 10898,
+      "description": "Circleback conversational context integration. Search and access meetings, emails, calendar events, and more.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "data-engineering",
+      "name": "Data Engineering",
+      "url": "https://claude.com/plugins/data-engineering",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/data-engineering",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 10800,
+      "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "posthog",
+      "name": "PostHog",
+      "url": "https://claude.com/plugins/posthog",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/posthog",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 10749,
+      "description": "Connect Claude Code to PostHog. Query analytics, manage flags, run A/B tests, track errors, analyze LLM costs via natural language. 10+ commands, OAuth, EU/US/self-hosted.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "qodo-skills",
+      "name": "Qodo Skills",
+      "url": "https://claude.com/plugins/qodo-skills",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/qodo-skills",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 10250,
+      "description": "Qodo Skills: AI agents that integrate code quality, testing, security, and compliance checks into your SDLC.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "sourcegraph",
+      "name": "Sourcegraph",
+      "url": "https://claude.com/plugins/sourcegraph",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/sourcegraph",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 9819,
+      "description": "Search code across codebases, trace references, analyze refactor impact, investigate incidents, run security sweeps.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "asana",
+      "name": "Asana",
+      "url": "https://claude.com/plugins/asana",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/asana",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 9240,
+      "description": "Asana integration: Create and manage tasks, search projects, update assignments, track progress in your development workflow.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "url": "https://claude.com/plugins/pinecone",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/pinecone",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 9018,
+      "description": "Pinecone vector database integration for managing indexes, querying, and rapid prototyping with slash commands and MCP server support.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "cloudflare",
+      "name": "cloudflare",
+      "url": "https://claude.com/plugins/cloudflare",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/cloudflare",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 8710,
+      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and we...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "expo",
+      "name": "expo",
+      "url": "https://claude.com/plugins/expo",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/expo",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 8019,
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI develop...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "deploy-on-aws",
+      "name": "Deploy on AWS",
+      "url": "https://claude.com/plugins/deploy-on-aws",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/deploy-on-aws",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 7664,
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "ruby-lsp",
+      "name": "Ruby LSP",
+      "url": "https://claude.com/plugins/ruby-lsp",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/ruby-lsp",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": true,
+      "installs": 6969,
+      "description": "Ruby language server for code intelligence and analysis",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "sonatype-guide",
+      "name": "Sonatype Guide",
+      "url": "https://claude.com/plugins/sonatype-guide",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/sonatype-guide",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 6608,
+      "description": "Sonatype Guide MCP: supply chain intelligence & dependency security analysis with vulnerability detection and version recommendations.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "terraform",
+      "name": "terraform",
+      "url": "https://claude.com/plugins/terraform",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/terraform",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 6579,
+      "description": "Terraform MCP Server: seamless integration with Terraform ecosystem for advanced IaC automation and interaction.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "session-report",
+      "name": "session-report",
+      "url": "https://claude.com/plugins/session-report",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/session-report",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": true,
+      "installs": 6530,
+      "description": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and th...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "aws-serverless",
+      "name": "AWS Serverless",
+      "url": "https://claude.com/plugins/aws-serverless",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/aws-serverless",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 6485,
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "fakechat",
+      "name": "fakechat",
+      "url": "https://claude.com/plugins/fakechat",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/fakechat",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 6278,
+      "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "searchfit-seo",
+      "name": "SearchFit SEO",
+      "url": "https://claude.com/plugins/searchfit-seo",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/searchfit-seo",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 6138,
+      "description": "Free AI SEO toolkit: audit, strategy, optimize, markup, keywords, visibility. Works everywhere.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "data",
+      "name": "Data",
+      "url": "https://claude.com/plugins/data",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/data",
+      "works_with": [
+        "Cowork"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": true,
+      "installs": 5824,
+      "description": "Write SQL, explore datasets, and generate insights. Build visualizations and dashboards from raw data.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "product-tracking-skills",
+      "name": "Product Tracking Skills",
+      "url": "https://claude.com/plugins/product-tracking-skills",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/product-tracking-skills",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 5394,
+      "description": "AI agents making SaaS products data-ready—scan codebase, build tracking plan, generate code",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "mintlify",
+      "name": "mintlify",
+      "url": "https://claude.com/plugins/mintlify",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/mintlify",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 5360,
+      "description": "Build beautiful documentation with Mintlify: convert to MDX, modify content, automate updates.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "prisma",
+      "name": "Prisma",
+      "url": "https://claude.com/plugins/prisma",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/prisma",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 5342,
+      "description": "Prisma MCP for Postgres: database management, migrations, SQL queries, and data interaction.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "mongodb",
+      "name": "mongodb",
+      "url": "https://claude.com/plugins/mongodb",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/mongodb",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 5330,
+      "description": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, opt...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "railway",
+      "name": "Railway",
+      "url": "https://claude.com/plugins/railway",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/railway",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 4506,
+      "description": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configur...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "aikido",
+      "name": "Aikido Security",
+      "url": "https://claude.com/plugins/aikido",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/aikido",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 4276,
+      "description": "Aikido Security scanning for Claude Code — SAST, secrets, and IaC vulnerability detection by Aikido MCP server.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "pagerduty",
+      "name": "PagerDuty Pre-Commit Risk Score",
+      "url": "https://claude.com/plugins/pagerduty",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/pagerduty",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 3902,
+      "description": "Score pre-commit diffs against PagerDuty incident history and surface deployment risk before you ship.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "goodmem",
+      "name": "GoodMem",
+      "url": "https://claude.com/plugins/goodmem",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/goodmem",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 3605,
+      "description": "GoodMem: AI memory infrastructure. Python SDK and MCP tools manage embedders, spaces, memories via natural language.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "optibot",
+      "name": "Optibot Code Review",
+      "url": "https://claude.com/plugins/optibot",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/optibot",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 3441,
+      "description": "AI code review that catches production bugs, business logic issues & security vulnerabilities in Claude Code.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "sonarqube",
+      "name": "sonarqube",
+      "url": "https://claude.com/plugins/sonarqube",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/sonarqube",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 3135,
+      "description": "Automatically enforce SonarQube code quality and security in the agent coding loop.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "netlify-skills",
+      "name": "Netlify Skills",
+      "url": "https://claude.com/plugins/netlify-skills",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/netlify-skills",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 3111,
+      "description": "Netlify platform skills for Claude Code — functions, edge functions, blobs, database, image CDN, forms, config, CLI, ...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "ai-plugins",
+      "name": "Endor Labs",
+      "url": "https://claude.com/plugins/ai-plugins",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/ai-plugins",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 3069,
+      "description": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across your software supply chain",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "azure",
+      "name": "azure",
+      "url": "https://claude.com/plugins/azure",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/azure",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2996,
+      "description": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to mo...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "adspirer-ads-agent",
+      "name": "Adspirer Ads Agent",
+      "url": "https://claude.com/plugins/adspirer-ads-agent",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/adspirer-ads-agent",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2916,
+      "description": "Ad management for Google, Meta, TikTok & LinkedIn. 91 tools for keyword research, campaigns, analysis & optimization.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "shopify-ai-toolkit",
+      "name": "shopify-ai-toolkit",
+      "url": "https://claude.com/plugins/shopify-ai-toolkit",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/shopify-ai-toolkit",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2870,
+      "description": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation sear...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "datadog",
+      "name": "Datadog",
+      "url": "https://claude.com/plugins/datadog",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/datadog",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 2812,
+      "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboar...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "pydantic-ai",
+      "name": "pydantic-ai",
+      "url": "https://claude.com/plugins/pydantic-ai",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/pydantic-ai",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2751,
+      "description": "Write accurate Pydantic AI code from the start. Up-to-date patterns, decision trees, and common gotchas for agents, t...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "wix",
+      "name": "Wix",
+      "url": "https://claude.com/plugins/wix",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/wix",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2559,
+      "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site wid...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "legalzoom",
+      "name": "LegalZoom",
+      "url": "https://claude.com/plugins/legalzoom",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/legalzoom",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "mcp",
+      "capabilities": [
+        "plugin",
+        "mcp"
+      ],
+      "anthropic_verified": false,
+      "installs": 2558,
+      "description": "AI reviews legal documents for risks and advises when to hire an attorney. Connects to legal professionals when needed.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "amazon-location-service",
+      "name": "Amazon Location Service",
+      "url": "https://claude.com/plugins/amazon-location-service",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/amazon-location-service",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 2517,
+      "description": "Integrate Amazon Location Service for maps, geocoding, routing, and geospatial features with authentication and SDKs.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "postiz",
+      "name": "Postiz",
+      "url": "https://claude.com/plugins/postiz",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/postiz",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin"
+      ],
+      "anthropic_verified": false,
+      "installs": 2372,
+      "description": "Social media automation CLI: schedule posts, manage integrations, upload media, track analytics (28+ platforms)",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "desktop-commander",
+      "name": "desktop-commander",
+      "url": "https://claude.com/plugins/desktop-commander",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/desktop-commander",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2368,
+      "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "rc",
+      "name": "RevenueCat",
+      "url": "https://claude.com/plugins/rc",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/rc",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "skill",
+      "capabilities": [
+        "plugin",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2365,
+      "description": "Manage RevenueCat in-app purchase backend directly from Claude Code without leaving your development workflow.",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    },
+    {
+      "slug": "zoom-plugin",
+      "name": "zoom-plugin",
+      "url": "https://claude.com/plugins/zoom-plugin",
+      "local_package_path": "agent-assets/claude-plugin-directory/plugins/zoom-plugin",
+      "works_with": [
+        "Claude Code"
+      ],
+      "primary_type": "plugin",
+      "capabilities": [
+        "plugin",
+        "mcp",
+        "skill"
+      ],
+      "anthropic_verified": false,
+      "installs": 2305,
+      "description": "Claude plugin for planning, building, and debugging Zoom integrations across REST APIs, SDKs, webhooks, bots, and MCP...",
+      "template": {
+        "enabled_by_default": false,
+        "install_mode": "local_folder_mirror_manual_activation",
+        "credential_policy": "do_not_store_secrets_in_this_file"
+      }
+    }
+  ]
+}

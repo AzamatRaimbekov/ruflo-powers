@@ -1,0 +1,16 @@
+{
+  "name": "rc",
+  "display_name": "RevenueCat",
+  "description": "Manage RevenueCat in-app purchase backend directly from Claude Code without leaving your development workflow.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/rc",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

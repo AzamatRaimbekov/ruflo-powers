@@ -1,0 +1,16 @@
+{
+  "name": "github",
+  "display_name": "GitHub",
+  "description": "Official GitHub MCP server for repo management. Create issues, manage PRs, review code, search repos, and access GitHub's API from Claude Code.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/github",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

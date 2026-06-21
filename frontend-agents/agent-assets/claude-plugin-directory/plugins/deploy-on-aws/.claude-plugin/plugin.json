@@ -1,0 +1,16 @@
+{
+  "name": "deploy-on-aws",
+  "display_name": "Deploy on AWS",
+  "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/deploy-on-aws",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

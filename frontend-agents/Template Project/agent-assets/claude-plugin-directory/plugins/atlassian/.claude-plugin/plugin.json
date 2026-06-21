@@ -1,0 +1,17 @@
+{
+  "name": "atlassian",
+  "display_name": "Atlassian",
+  "description": "Connect to Jira & Confluence. Search/create issues, access docs, manage sprints, integrate development workflows.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/atlassian",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

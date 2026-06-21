@@ -1,0 +1,16 @@
+{
+  "name": "postman",
+  "display_name": "postman",
+  "description": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, crea...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/postman",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

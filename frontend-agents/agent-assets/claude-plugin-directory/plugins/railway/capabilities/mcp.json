@@ -1,0 +1,10 @@
+{
+  "slug": "railway",
+  "name": "Railway",
+  "type": "mcp",
+  "source_url": "https://claude.com/plugins/railway",
+  "enabled_by_default": false,
+  "server": null,
+  "configuration_status": "requires_target_environment_install",
+  "secret_policy": "never_commit_credentials_or_tokens"
+}

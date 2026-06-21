@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "github",
+  "name": "GitHub",
+  "source": {
+    "url": "https://claude.com/plugins/github",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/github",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "mcp",
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "anthropic_verified": false,
+  "installs": 261988,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Official GitHub MCP server for repo management. Create issues, manage PRs, review code, search repos, and access GitHub's API from Claude Code."
+}

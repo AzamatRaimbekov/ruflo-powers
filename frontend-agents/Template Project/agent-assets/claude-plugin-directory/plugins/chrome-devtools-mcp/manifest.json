@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "chrome-devtools-mcp",
+  "name": "Chrome DevTools",
+  "source": {
+    "url": "https://claude.com/plugins/chrome-devtools-mcp",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/chrome-devtools-mcp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "skill",
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "anthropic_verified": false,
+  "installs": 69448,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests..."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "context7",
+  "display_name": "Context7",
+  "description": "Upstash Context7 MCP server for live docs lookup. Pull version-specific docs and code examples from source repos into LLM context.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/context7",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

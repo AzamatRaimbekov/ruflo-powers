@@ -1,0 +1,16 @@
+{
+  "name": "expo",
+  "display_name": "expo",
+  "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI develop...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/expo",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

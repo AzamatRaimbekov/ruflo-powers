@@ -1,0 +1,17 @@
+{
+  "name": "azure",
+  "display_name": "azure",
+  "description": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to mo...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/azure",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

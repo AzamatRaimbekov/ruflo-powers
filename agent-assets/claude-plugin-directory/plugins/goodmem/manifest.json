@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "goodmem",
+  "name": "GoodMem",
+  "source": {
+    "url": "https://claude.com/plugins/goodmem",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/goodmem",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "plugin",
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "anthropic_verified": false,
+  "installs": 3605,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "GoodMem: AI memory infrastructure. Python SDK and MCP tools manage embedders, spaces, memories via natural language."
+}

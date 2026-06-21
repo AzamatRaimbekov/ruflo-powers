@@ -1,0 +1,8 @@
+{
+  "slug": "discord",
+  "name": "discord",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/discord",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

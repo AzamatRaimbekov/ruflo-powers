@@ -1,0 +1,8 @@
+{
+  "slug": "agent-sdk-dev",
+  "name": "Agent SDK Dev",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/agent-sdk-dev",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

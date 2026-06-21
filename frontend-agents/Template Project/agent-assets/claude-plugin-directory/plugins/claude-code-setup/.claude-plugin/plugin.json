@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-setup",
+  "display_name": "Claude Code Setup",
+  "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/claude-code-setup",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

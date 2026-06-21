@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "pydantic-ai",
+  "name": "pydantic-ai",
+  "source": {
+    "url": "https://claude.com/plugins/pydantic-ai",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/pydantic-ai",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "skill",
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "anthropic_verified": false,
+  "installs": 2751,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Write accurate Pydantic AI code from the start. Up-to-date patterns, decision trees, and common gotchas for agents, t..."
+}

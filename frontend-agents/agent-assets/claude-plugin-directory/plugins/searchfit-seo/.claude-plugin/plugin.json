@@ -1,0 +1,16 @@
+{
+  "name": "searchfit-seo",
+  "display_name": "SearchFit SEO",
+  "description": "Free AI SEO toolkit: audit, strategy, optimize, markup, keywords, visibility. Works everywhere.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/searchfit-seo",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

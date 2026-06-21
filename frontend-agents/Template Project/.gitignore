@@ -1,0 +1,19 @@
+# Ruflo runtime — machine/path-specific, rebuilt by the ruflo-bootstrap skill
+.claude-flow/
+.claude/memory.db
+.claude/memory.db-*
+.claude/checkpoints/
+.claude/*.lock
+.claude/scheduled_tasks.lock
+agentdb.rvf
+agentdb.rvf.lock
+.codex/
+node_modules/
+.claude/.ruflo-bootstrap.lock
+.claude-flow-bootstrap.log
+.swarm/
+ruvector.db
+ruvector.db-*
+*.rvf
+*.rvf.lock
+.claude-flow/owner-path

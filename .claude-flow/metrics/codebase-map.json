@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-06-18T16:11:36.491Z",
+  "projectRoot": "/Users/raimbekov/Desktop/AI-TOOLS",
+  "structure": {
+    "hasPackageJson": false,
+    "hasTsConfig": false,
+    "hasClaudeConfig": true,
+    "hasClaudeFlow": true
+  },
+  "scannedAt": 1781799096491
+}

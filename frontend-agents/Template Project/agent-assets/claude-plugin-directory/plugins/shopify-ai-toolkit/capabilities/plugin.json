@@ -1,0 +1,8 @@
+{
+  "slug": "shopify-ai-toolkit",
+  "name": "shopify-ai-toolkit",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/shopify-ai-toolkit",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

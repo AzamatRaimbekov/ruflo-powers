@@ -1,0 +1,15 @@
+{
+  "name": "ralph-loop",
+  "display_name": "Ralph Loop",
+  "description": "Interactive AI loops for iterative development using the Ralph Wiggum technique: Claude works on tasks repeatedly, seeing prior work until completion.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/ralph-loop",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

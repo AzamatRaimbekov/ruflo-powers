@@ -1,0 +1,17 @@
+{
+  "name": "desktop-commander",
+  "display_name": "desktop-commander",
+  "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/desktop-commander",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

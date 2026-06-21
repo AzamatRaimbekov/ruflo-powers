@@ -1,0 +1,16 @@
+{
+  "name": "jdtls-lsp",
+  "display_name": "Java LSP (Eclipse JDT.LS)",
+  "description": "Java language server (Eclipse JDT.LS) for code intelligence.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/jdtls-lsp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

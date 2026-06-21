@@ -1,0 +1,17 @@
+{
+  "name": "shopify-ai-toolkit",
+  "display_name": "shopify-ai-toolkit",
+  "description": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation sear...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/shopify-ai-toolkit",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

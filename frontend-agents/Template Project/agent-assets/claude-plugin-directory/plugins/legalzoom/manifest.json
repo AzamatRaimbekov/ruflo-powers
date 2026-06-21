@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "legalzoom",
+  "name": "LegalZoom",
+  "source": {
+    "url": "https://claude.com/plugins/legalzoom",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/legalzoom",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "mcp",
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "anthropic_verified": false,
+  "installs": 2558,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "AI reviews legal documents for risks and advises when to hire an attorney. Connects to legal professionals when needed."
+}

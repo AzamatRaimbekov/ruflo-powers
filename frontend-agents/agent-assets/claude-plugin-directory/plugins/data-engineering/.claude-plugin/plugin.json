@@ -1,0 +1,15 @@
+{
+  "name": "data-engineering",
+  "display_name": "Data Engineering",
+  "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/data-engineering",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

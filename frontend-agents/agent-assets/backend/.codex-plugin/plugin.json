@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "Backend engineering skill pack for API contracts, data persistence, security, reliability, observability, performance, Go, FastAPI, Django, framework patterns, and backend code review.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Backend",
+    "shortDescription": "Production backend engineering skills.",
+    "longDescription": "Backend provides curated local skills for architecture decisions, REST and OpenAPI contracts, database schemas and migrations, authentication and authorization, observability, reliability, performance, Go/Golang services, FastAPI services, Django/DRF services, framework-specific route patterns, and backend code review. The pack is synthesized from SkillsMP marketplace candidates and local project rules.",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Write",
+      "Review",
+      "Documentation"
+    ],
+    "defaultPrompt": [
+      "Use $backend-engineering to choose backend architecture tradeoffs.",
+      "Use $backend-api-contracts to design a REST API contract.",
+      "Use $backend-data-persistence to plan a schema or migration.",
+      "Use $backend-security-auth to harden authentication and authorization.",
+      "Use $backend-golang to build or review a Go backend service.",
+      "Use $backend-fastapi to build or review a FastAPI backend service.",
+      "Use $backend-django to build or review a Django or DRF backend.",
+      "Use $backend-code-review to review backend changes."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

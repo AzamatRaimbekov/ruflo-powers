@@ -1,0 +1,16 @@
+{
+  "name": "wix",
+  "display_name": "Wix",
+  "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site wid...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/wix",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

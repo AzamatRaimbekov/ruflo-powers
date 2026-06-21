@@ -1,0 +1,16 @@
+{
+  "name": "discord",
+  "display_name": "discord",
+  "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/discord",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

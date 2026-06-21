@@ -1,0 +1,16 @@
+{
+  "name": "code-review",
+  "display_name": "Code Review",
+  "description": "AI code review with specialized agents and confidence-based filtering for pull requests.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/code-review",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

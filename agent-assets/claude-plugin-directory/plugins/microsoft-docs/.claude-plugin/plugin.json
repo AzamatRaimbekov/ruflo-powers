@@ -1,0 +1,16 @@
+{
+  "name": "microsoft-docs",
+  "display_name": "Microsoft Docs",
+  "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/microsoft-docs",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

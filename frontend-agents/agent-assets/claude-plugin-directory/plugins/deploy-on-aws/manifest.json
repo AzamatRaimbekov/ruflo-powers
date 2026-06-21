@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "deploy-on-aws",
+  "name": "Deploy on AWS",
+  "source": {
+    "url": "https://claude.com/plugins/deploy-on-aws",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/deploy-on-aws",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "mcp",
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "anthropic_verified": false,
+  "installs": 7664,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment."
+}

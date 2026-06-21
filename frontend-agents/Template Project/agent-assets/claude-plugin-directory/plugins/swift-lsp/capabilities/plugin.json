@@ -1,0 +1,8 @@
+{
+  "slug": "swift-lsp",
+  "name": "Swift LSP",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/swift-lsp",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

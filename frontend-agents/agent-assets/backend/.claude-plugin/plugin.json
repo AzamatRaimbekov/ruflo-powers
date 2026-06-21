@@ -1,0 +1,7 @@
+{
+  "name": "backend",
+  "description": "Backend engineering skill pack for API contracts, data persistence, security, reliability, observability, performance, Go, FastAPI, Django, framework patterns, and backend code review.",
+  "author": {
+    "name": "Local developer"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chrome-devtools-mcp",
+  "display_name": "Chrome DevTools",
+  "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/chrome-devtools-mcp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

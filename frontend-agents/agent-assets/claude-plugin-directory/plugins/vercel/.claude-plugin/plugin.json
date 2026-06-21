@@ -1,0 +1,16 @@
+{
+  "name": "vercel",
+  "display_name": "Vercel",
+  "description": "Vercel integration for Claude Code. Manage deployments, builds, logs, domains, and frontend infrastructure directly.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/vercel",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

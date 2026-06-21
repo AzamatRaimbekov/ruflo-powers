@@ -1,0 +1,16 @@
+{
+  "name": "datadog",
+  "display_name": "Datadog",
+  "description": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboar...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/datadog",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

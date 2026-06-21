@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "product-tracking-skills",
+  "name": "Product Tracking Skills",
+  "source": {
+    "url": "https://claude.com/plugins/product-tracking-skills",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/product-tracking-skills",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "skill",
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "anthropic_verified": false,
+  "installs": 5394,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "AI agents making SaaS products data-ready—scan codebase, build tracking plan, generate code"
+}

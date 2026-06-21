@@ -1,0 +1,16 @@
+{
+  "name": "rust-analyzer-lsp",
+  "display_name": "Rust Analyzer LSP",
+  "description": "Rust language server for code intelligence and analysis.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/rust-analyzer-lsp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

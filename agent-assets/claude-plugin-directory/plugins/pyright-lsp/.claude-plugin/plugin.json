@@ -1,0 +1,16 @@
+{
+  "name": "pyright-lsp",
+  "display_name": "Pyright LSP",
+  "description": "Python language server (Pyright) for type checking and code intelligence.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/pyright-lsp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "typescript-lsp",
+  "display_name": "TypeScript LSP",
+  "description": "TypeScript/JavaScript language server for enhanced code intelligence.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/typescript-lsp",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

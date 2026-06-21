@@ -1,0 +1,8 @@
+{
+  "slug": "wix",
+  "name": "Wix",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/wix",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

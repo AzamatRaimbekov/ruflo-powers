@@ -1,0 +1,17 @@
+{
+  "name": "mongodb",
+  "display_name": "mongodb",
+  "description": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, opt...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/mongodb",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

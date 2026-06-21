@@ -1,0 +1,16 @@
+{
+  "name": "qodo-skills",
+  "display_name": "Qodo Skills",
+  "description": "Qodo Skills: AI agents that integrate code quality, testing, security, and compliance checks into your SDLC.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/qodo-skills",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

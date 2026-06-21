@@ -1,0 +1,16 @@
+{
+  "name": "firecrawl",
+  "display_name": "Firecrawl",
+  "description": "Firecrawl: Convert websites to LLM-ready markdown/data. Scrape pages, crawl sites, search web, extract structured info. Includes AI agent for autonomous data gathering.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/firecrawl",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

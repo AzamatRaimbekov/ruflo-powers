@@ -1,0 +1,8 @@
+{
+  "slug": "data-engineering",
+  "name": "Data Engineering",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/data-engineering",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

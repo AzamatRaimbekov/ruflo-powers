@@ -1,0 +1,8 @@
+{
+  "slug": "rust-analyzer-lsp",
+  "name": "Rust Analyzer LSP",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/rust-analyzer-lsp",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

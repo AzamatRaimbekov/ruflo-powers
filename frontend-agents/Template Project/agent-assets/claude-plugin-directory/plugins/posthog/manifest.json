@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "posthog",
+  "name": "PostHog",
+  "source": {
+    "url": "https://claude.com/plugins/posthog",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/posthog",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "skill",
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "anthropic_verified": false,
+  "installs": 10749,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Connect Claude Code to PostHog. Query analytics, manage flags, run A/B tests, track errors, analyze LLM costs via natural language. 10+ commands, OAuth, EU/US/self-hosted."
+}

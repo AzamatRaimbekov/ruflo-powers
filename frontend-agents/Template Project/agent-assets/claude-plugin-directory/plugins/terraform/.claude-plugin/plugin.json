@@ -1,0 +1,16 @@
+{
+  "name": "terraform",
+  "display_name": "terraform",
+  "description": "Terraform MCP Server: seamless integration with Terraform ecosystem for advanced IaC automation and interaction.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/terraform",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

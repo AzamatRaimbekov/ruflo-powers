@@ -1,0 +1,8 @@
+{
+  "slug": "adspirer-ads-agent",
+  "name": "Adspirer Ads Agent",
+  "type": "plugin",
+  "source_url": "https://claude.com/plugins/adspirer-ads-agent",
+  "enabled_by_default": false,
+  "install_mode": "manual_target_environment_install"
+}

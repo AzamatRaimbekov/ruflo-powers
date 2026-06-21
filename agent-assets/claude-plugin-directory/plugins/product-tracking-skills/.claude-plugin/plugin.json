@@ -1,0 +1,16 @@
+{
+  "name": "product-tracking-skills",
+  "display_name": "Product Tracking Skills",
+  "description": "AI agents making SaaS products data-ready—scan codebase, build tracking plan, generate code.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/product-tracking-skills",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

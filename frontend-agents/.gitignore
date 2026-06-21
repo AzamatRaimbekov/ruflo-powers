@@ -1,0 +1,7 @@
+.claude-flow/
+.swarm/
+ruvector.db
+ruvector.db-*
+*.rvf
+*.rvf.lock
+.claude/memory.db

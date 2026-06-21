@@ -1,0 +1,16 @@
+{
+  "name": "imessage",
+  "display_name": "iMessage",
+  "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/imessage",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

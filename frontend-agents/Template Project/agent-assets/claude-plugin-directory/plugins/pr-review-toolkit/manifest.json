@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "slug": "pr-review-toolkit",
+  "name": "PR Review Toolkit",
+  "source": {
+    "url": "https://claude.com/plugins/pr-review-toolkit",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/pr-review-toolkit",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "skill",
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "anthropic_verified": true,
+  "installs": 96663,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "PR review agents for comments, tests, errors, types, quality, and simplification"
+}

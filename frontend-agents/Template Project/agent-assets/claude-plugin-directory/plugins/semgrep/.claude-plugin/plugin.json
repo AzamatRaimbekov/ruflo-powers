@@ -1,0 +1,16 @@
+{
+  "name": "semgrep",
+  "display_name": "Semgrep",
+  "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/semgrep",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

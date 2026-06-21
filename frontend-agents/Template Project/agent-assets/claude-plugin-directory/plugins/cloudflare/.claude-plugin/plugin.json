@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare",
+  "display_name": "cloudflare",
+  "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and we...",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/cloudflare",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

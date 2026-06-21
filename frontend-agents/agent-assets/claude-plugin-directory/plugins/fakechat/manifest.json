@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "slug": "fakechat",
+  "name": "fakechat",
+  "source": {
+    "url": "https://claude.com/plugins/fakechat",
+    "directory_url": "https://claude.com/plugins",
+    "retrieved_at": "2026-06-03"
+  },
+  "local_package_path": "agent-assets/claude-plugin-directory/plugins/fakechat",
+  "works_with": [
+    "Claude Code"
+  ],
+  "primary_type": "plugin",
+  "capabilities": [
+    "plugin"
+  ],
+  "anthropic_verified": false,
+  "installs": 6278,
+  "enabled_by_default": false,
+  "activation": {
+    "mode": "manual_target_environment_install",
+    "reason": "Public directory metadata does not expose credentials, OAuth grants, or complete remote package payloads.",
+    "secret_policy": "never_commit_credentials_or_tokens"
+  },
+  "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service."
+}

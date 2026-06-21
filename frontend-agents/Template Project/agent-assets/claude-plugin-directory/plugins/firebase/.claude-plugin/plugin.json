@@ -1,0 +1,17 @@
+{
+  "name": "firebase",
+  "display_name": "Firebase",
+  "description": "Firebase MCP integration. Manage Firestore, authentication, functions, hosting, and storage from your development workflow.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/firebase",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "figma",
+  "display_name": "Figma",
+  "description": "Figma integration: access design files, extract components, read tokens, translate to code. Bridge design-development gap.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/figma",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

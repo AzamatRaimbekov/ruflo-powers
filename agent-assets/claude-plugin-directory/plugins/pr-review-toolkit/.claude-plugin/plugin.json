@@ -1,0 +1,16 @@
+{
+  "name": "pr-review-toolkit",
+  "display_name": "PR Review Toolkit",
+  "description": "PR review agents for comments, tests, errors, types, quality, and simplification.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/pr-review-toolkit",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

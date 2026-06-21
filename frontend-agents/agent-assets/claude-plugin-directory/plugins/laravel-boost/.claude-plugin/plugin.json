@@ -1,0 +1,17 @@
+{
+  "name": "laravel-boost",
+  "display_name": "Laravel Boost",
+  "description": "Laravel MCP server for intelligent Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/laravel-boost",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "mcp",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}

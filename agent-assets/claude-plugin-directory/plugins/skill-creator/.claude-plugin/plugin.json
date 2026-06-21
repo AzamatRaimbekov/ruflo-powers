@@ -1,0 +1,16 @@
+{
+  "name": "skill-creator",
+  "display_name": "Skill Creator",
+  "description": "Create, improve, and measure skills. Use for creating, updating, evaluating, and benchmarking performance.",
+  "version": "0.0.0-template",
+  "source_url": "https://claude.com/plugins/skill-creator",
+  "works_with": [
+    "Claude Code"
+  ],
+  "capabilities": [
+    "plugin",
+    "skill"
+  ],
+  "enabled_by_default": false,
+  "template_only": true
+}
