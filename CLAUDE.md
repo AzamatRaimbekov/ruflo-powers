@@ -2,6 +2,7 @@
 
 ## Rules
 
+- **FRAMEWORK CHANGE = PROPAGATE + PUBLISH (always, automatically).** Whenever you add or change any framework asset in this workspace (a skill, agent, command, hook, rule, installer, or doc), you MUST, in the same task and without being asked again: (1) update the **global** `best-powers` skill at `~/.claude/skills/best-powers/` if the change affects it; (2) mirror the change into the repo copy `.claude/skills/best-powers/` AND into the **Template Project** (`frontend-agents/Template Project/` — the canonical shipped starter, and keep `~/Desktop/Template Project/` in sync too) so a fresh copy carries it; (3) publish by running `bash update.sh "<what changed>"` to push to GitHub (`AzamatRaimbekov/ruflo-powers`). Skills/rules added only to the master but not propagated are a bug. See [[best-powers-distribution]], [[ruflo-powers-repo]].
 - **NEW PROJECT / GREENFIELD = ARCHITECTURE GATE FIRST.** Whenever a new project, app, service, epic, or major feature begins (or the first substantive request in a fresh/empty folder), you MUST invoke the `project-kickoff` skill BEFORE writing any implementation code. It activates superpowers (skills), refines intent, designs the architecture, and requires **explicit user approval** of that architecture before implementation. No scaffolding, no deps, no code until the user approves. See `.claude/skills/project-kickoff/SKILL.md`.
 - Do what has been asked; nothing more, nothing less
 - NEVER create files unless absolutely necessary — prefer editing existing files
